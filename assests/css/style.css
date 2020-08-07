@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+:root {
+    --primary-color: rgb(53, 104, 170);
+    --secondary-color: rgb(37, 45, 88);
+}
+
+/*header start*/
+header {
+    padding: 20px 35px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    z-index: 9999;
+}
+header a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    padding: inherit;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*header end*/
+
+body {
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*hero start*/
+
+/*hero end*/
