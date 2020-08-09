@@ -8,7 +8,7 @@
 <body>
     <header>
         <h1>
-            <a href="#top">Trevor Pino</a>
+        <a href="#top">Trevor Pino</a>
         </h1>
         <!--navigation-->
         <nav>
@@ -27,53 +27,59 @@
     </header>
 
     <!--hero-->
-    <section>
-        <section class="hero">
-            <div class="hero-msg">
-                <p>You only live once, but if you do it right,once is enough.
-                    <br>
-                    Mae west
-                </p>          
+    <section class="hero" id="hero">
+            <div>
+                <p>You only live once, but if you do it right,once is enough.</p>
+                <h2>Mae West</h2> 
             </div>
         </section>
     </section>
     
     <!--meet me-->
     <section id="meet-me" class="me">
-        <div class="flex-row">
-            <h3 class="section-title">Meet Me</h3>
-         </div>
-        <div class="flex=row">
-            <div class="portfolio-img">
-                <h4>It's ME!</h4>
-            </div>
-            <div class="portfolio-bio">
-                <p> Stuff about me! Update late
-                    <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit ut tortor pretium viverra suspendisse potenti nullam. Interdum velit euismod in pellentesque massa. Nisl pretium fusce id velit. Tincidunt praesent semper feugiat nibh sed pulvinar. Cras sed felis eget velit. In hac habitasse platea dictumst quisque. Habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat. Mattis aliquam faucibus purus in massa tempor. Consectetur adipiscing elit pellentesque habitant morbi. Egestas pretium aenean pharetra magna ac. Elit at imperdiet dui accumsan sit amet nulla facilisi. Ornare quam viverra orci sagittis eu volutpat odio. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean.
-                </p>
+        <div class="section-title">
+            <h3>Meet Me</h3> 
+        </div>
+        <div class="section-content">
+            <div class="bio">
+            <img src="./assests/images/portfolio-bio-pic.jpg" width="150px" height="200px" alt="a picture of me"/>
+            <p> Hi! My name is Trevor Pino. I am 28 and currently live on New Mexico with my Fiance and our two "children" Spartacus ‍🐈 and Albert 🐈
+                <br><br>
+                Soon to be a certified Web Developer from University of Arizona. Skilled in basic HTMl and CSS all the way through Bootstrap and JS. Experienced in working with groups to meet job quality and time requirements. 
+                <br><br>
+                (improve later)
+
+            </p>
             </div>
         </div>
     </section>
 
         <!--my projects-->
     <section id="my-projects" class="projects">
-        <h3 class="section-title">My Projects</h3>
+        <div class="section-title">
+            <h3>My Projects</h3>
+        </div>
         <div class="projects-grid-wrapper">
-            <div class="projects-grid-container">
-                <div class="projects-grid-item">
-                    Run Buddy
+            <div  class="projects-grid-container">
+                <div class="grid-item item-1" onclick='location.href = "https://tpino92.github.io/run-buddy/";'>
+                    <p>
+                        Run Buddy
+                        <br>
+                         HTML / CSS
+                    </p>
                 </div>
-                <div class="projects-grid-item">
-                    Horiseon Solution
+                <div class="grid-item item-2" onclick='location.href = "https://tpino92.github.io/Horiseon-Solutions/";'>
+                        Horiseon Solution
+                        <br>
+                        HTML / CSS
                 </div>
-                <div class="projects-grid-item">
+                <div class="grid-item item-3">
                     Place Holder
                 </div>
-                <div class="projects-grid-item">
+                <div class="grid-item item-4">
                     Place Holder
                 </div>
-                <div class="projects-grid-item">
+                <div class="grid-item item-5">
                     Place Holder
                 </div>
             </div>
@@ -82,10 +88,10 @@
 
     <!--contact me-->
     <section id="contact-me" class="contact">
-        <div class="flex-row">
-            <h3 class="section-title">Contact Me</h3>
+        <div class="section-title">
+            <h3>Contact Me</h3>
         </div>
-        <div class="flex-row">
+        <div class="section-content">
             <ul>
                 <li>
                     <a href="tel:111.222.3333">111-222-3333</a>
@@ -105,10 +111,9 @@
             </ul>
         </div>
     </section>
-
-    <!--footer-->
-    <footer>
-        <h4>Made with ❤️ by Trevor Pino</h4>
-    </footer>
-    
 </body>
+
+<!--footer-->
+<footer>
+    <h4>Made with ❤️ by Trevor Pino</h4>
+</footer>
