@@ -3,8 +3,8 @@
 }
 
 :root {
-    --primary-color: rgb(53, 104, 170);
-    --secondary-color: rgb(37, 45, 88);
+    --primary-color: rgb(39, 145, 194);
+    --secondary-color: rgb(26, 42, 134);
 }
 
 /*header start*/
@@ -100,7 +100,7 @@ section {
 
 .hero div {
     padding: 100px 20px 0 0;
-    color: rgb(199, 197, 197);
+    color: yellow;
 }
 /*hero end*/
 
