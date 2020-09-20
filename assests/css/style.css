@@ -100,7 +100,8 @@ section {
 
 .hero div {
     padding: 100px 20px 0 0;
-    color: yellow;
+    color: white;
+    font-weight: bold;
 }
 /*hero end*/
 
