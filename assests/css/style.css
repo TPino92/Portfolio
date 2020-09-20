@@ -70,6 +70,7 @@ body {
     display: inline-flex;
     width: 100%;
 }
+
 section {
     display: flex;
     padding: 50px 0;
@@ -104,11 +105,14 @@ section {
 /*hero end*/
 
 /*meet me start*/
-.me p {
-    padding: 5px;
-}
 .bio {
-    display: inline-flex
+    display: inline-flex;
+    margin: 15px;
+}
+
+.bio p{
+    font-size: 1.25em;
+    margin-left: 15px;
 }
 /*meet me end*/
 
@@ -121,21 +125,26 @@ section {
 
 .projects-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-auto-rows: 100px;
     grid-gap: 20px;
+    width: 80%;
+    height: 300px;
     padding: 10px;
 }
 
 .grid-item {
-    border: 5px solid var(--primary-color);
+    display: flex;
+    border: medium solid var(--primary-color);
+    border-radius: 10px;
     color: black;
-    justify-content: left;
-    align-content: flex-end;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     overflow: hidden;
     opacity: 1;
+    font-weight: bold;
 }
 
 .grid-item:hover {
@@ -144,31 +153,62 @@ section {
     transition: .6s;
     opacity: 0.7;
 }
+
 .item-1 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-    background-image: url(../images/run-buddy.png);
+    grid-column: 1 / span 8;
+    grid-row: 1 / span 8;
+    background-image: url(../images/news-on-the-balance.png);
     background-size: cover;
 }
 
 .item-1:hover {
-    background-image: url(../images/run-buddy.png);
+    background-image: url(../images/news-on-the-balance.png);
     background-size: cover;
 }
+.item-2, .item-3, .item-4, .item-5 {
+    grid-column: span 4;
+    grid-row: span 4;
+}
 .item-2 {
-    background-image: url(../images/Horiseon-Solutions.png);
+    background-image: url(../images/password-generator.png);
     background-size: cover;
 }
 
 .item-2:hover {
+    background-image: url(../images/password-generator.png);
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url(../images/taskmaster-pro.png);
+    background-size: cover;
+}
+
+.item-3:hover {
+    background-image: url(../images/taskmaster-pro.png);
+    background-size: cover;
+}
+
+.item-4 {
     background-image: url(../images/Horiseon-Solutions.png);
     background-size: cover;
 }
 
-.item-3, .item-4, .item-5 {
-    background-image: url(../images/placeholder.png);
-    background-image: cover;
+.item-4:hover {
+    background-image: url(../images/Horiseon-Solutions.png);
+    background-size: cover;
 }
+
+.item-5 {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+}
+
+.item-5:hover {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+}
+
 
 
 /*my projects end*/
