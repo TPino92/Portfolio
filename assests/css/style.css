@@ -162,7 +162,7 @@ section {
 }
 
 .item-1:hover {
-    background-image: url(../images/news-on-the-balance.png);
+    background-image: url(../images/private-reserve.png);
     background-size: cover;
 }
 .item-2, .item-3, .item-4, .item-5 {
@@ -172,17 +172,17 @@ section {
 }
 
 .item-2:hover {
-    background-image: url(../images/password-generator.png);
+    background-image: url(../images/news-on-the-balance.png);
     background-size: cover;
 }
 
 .item-3:hover {
-    background-image: url(../images/taskmaster-pro.png);
+    background-image: url(../images/password-generator.png);
     background-size: cover;
 }
 
 .item-4:hover {
-    background-image: url(../images/Horiseon-Solutions.png);
+    background-image: url(../images/taskmaster-pro.png);
     background-size: cover;
 }
 
